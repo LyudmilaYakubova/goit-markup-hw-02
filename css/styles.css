@@ -1,0 +1,76 @@
+.hero-btn {
+    background-color: #2196F3;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+}
+
+.hero-btn:hover {
+    background-color: #188CE8;
+}
+
+.hero-btn:focus {
+    background-color: #2136F3;
+}
+
+
+:root {
+    --accent-color: #2196F3;
+    --primary-color: #2F303A;
+    --secondary-color: #757575 #212121;
+    --common-white: #FFFFFF;
+    --main-font: "Roboto", sans-serif;
+  
+}
+
+.list {
+    list-style: none;
+    padding: 0%;
+}
+
+.header {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 32px 215px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation {
+    font-family: var(--main-font);
+    display: flex;
+    align-items: center;
+    margin-right: 330px;
+}
+
+.novigation-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.logo {
+    margin-right: 93px;
+    display: flex;
+    text-decoration: none;
+}
+
+.novigation-menu {
+    display: flex;
+}
+
+.novigation-item {
+    margin-right: 50px;
+}
+
+.novigation-contacts {
+    display: flex;
+    text-decoration: none;
+}
+
+.email {
+    margin-right: 50px; 
+    
+}
