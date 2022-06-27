@@ -37,6 +37,15 @@
     
 }
 
+.novigation-link.current {
+    color: var(--accent-color);
+}
+.novigation-link:focus, 
+.novigation-link:hover {
+    color: var(--accent-color);
+
+}
+
 .logo {
     margin-right: 93px;
     display: flex;
