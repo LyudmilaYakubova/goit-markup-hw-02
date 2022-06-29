@@ -172,31 +172,33 @@ body {
     margin-top: 10px;
 }
 
-.presents-portfolio {
-    font-family: var(--main-font);
-    padding: 94px 215px;
-    display: flex;
-    align-items: center;
-    width: 1170px;
-    margin: 0 auto;
-    
-}
+/* Чем мы занимаемся */
+
+
 
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    height: 1.6;
+    line-height: 1,9;
     width: 376;
     font-family: var(--main-font);
     color: var(--secondary-color);
     align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 94px 612px 50px;
+   
 
 }
+
 
 .img-portfolio {
     padding-top: 290px;
     padding-bottom: 94px;
     display: flex;
+    margin: 215px;
+    margin-top: 50px;
+    
 }
 .image {
     width: 370px;
@@ -255,6 +257,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: var(--common-white);
+    font-style: normal;
 }
 
 .email-footer {
@@ -263,6 +266,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    font-style: normal;
 }
 
 .phone-footer {
@@ -271,6 +275,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    font-style: normal;
 }
 
 .phone-footer:focus, 
